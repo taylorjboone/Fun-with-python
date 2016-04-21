@@ -5,6 +5,4 @@ answer = raw_input("> ")
 
 rs = open(answer)
 print rs.read()
-  
-open_file(answer)
-close(answer)
+rs.close()
