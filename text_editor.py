@@ -3,8 +3,8 @@
 print "What file would you like to view?"
 answer = raw_input("> ")
 
-def open_file(f):
-  f.read(open(f))
+rs = open(answer)
+print rs.read()
   
 open_file(answer)
 close(answer)
